@@ -1,0 +1,24 @@
+.Container {
+  background: $bg_primary;
+  box-shadow: 3px 3px 5px $bg_dark;
+  border-radius: 7px;
+
+  #display {
+    margin: 20px;
+
+    h1 {
+      color: $font_color;
+      font-size: 24px;
+      margin-bottom: 10px;
+      text-shadow: 0px 0px 5px $btn_primary, 0 0 3px $btn_primary_dark,
+        0 0 3px $btn_primary_dark;
+    }
+
+    p {
+      color: $btn_primary_dark;
+      font-size: 20px;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}

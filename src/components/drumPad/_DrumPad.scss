@@ -1,0 +1,23 @@
+.DrumPad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+
+  button {
+    padding: 20px;
+    box-shadow: 3px 3px 5px $bg_secondary;
+    background: linear-gradient($btn_primary, $btn_primary_dark);
+    color: $font_color;
+    font-weight: 900;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+
+    &:active {
+      background: $btn_secondary;
+      transform: translate(3px, 3px);
+      box-shadow: 1px 1px 2px $bg_secondary;
+    }
+  }
+}

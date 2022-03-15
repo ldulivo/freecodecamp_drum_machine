@@ -1,0 +1,18 @@
+@import "./colors";
+@import "./fonts";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $font_family;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+body {
+  background: $bg_secondary;
+}
+
+@import "./App.scss";
+@import "../components/container/Container";
+@import "../components/drumPad/DrumPad";
